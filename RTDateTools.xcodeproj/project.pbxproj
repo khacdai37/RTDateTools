@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2122DB95282E097A008E5E0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2122DB94282E097A008E5E0A /* AppDelegate.swift */; };
+		2122DB99282E097A008E5E0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2122DB98282E097A008E5E0A /* ViewController.swift */; };
+		2122DB9C282E097A008E5E0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2122DB9A282E097A008E5E0A /* Main.storyboard */; };
+		2122DB9E282E097B008E5E0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2122DB9D282E097B008E5E0A /* Assets.xcassets */; };
+		2122DBA1282E097B008E5E0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2122DB9F282E097B008E5E0A /* LaunchScreen.storyboard */; };
+		2122DBA7282E09B8008E5E0A /* RTDateTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 214FBAA0281BD8940031FE88 /* RTDateTools.framework */; };
+		2122DBA8282E09B8008E5E0A /* RTDateTools.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 214FBAA0281BD8940031FE88 /* RTDateTools.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		214FBAA4281BD8940031FE88 /* RTDateTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 214FBAA3281BD8940031FE88 /* RTDateTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		214FBAEA281BDA740031FE88 /* DateTools.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 214FBADA281BDA740031FE88 /* DateTools.bundle */; };
 		214FBAEB281BDA740031FE88 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214FBADB281BDA740031FE88 /* Constants.swift */; };
@@ -26,7 +33,38 @@
 		214FBAF9281BDA740031FE88 /* TimePeriodCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214FBAE9281BDA740031FE88 /* TimePeriodCollection.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2122DBA9282E09B9008E5E0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 214FBA97281BD8940031FE88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 214FBA9F281BD8940031FE88;
+			remoteInfo = RTDateTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2122DBAB282E09B9008E5E0A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2122DBA8282E09B8008E5E0A /* RTDateTools.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2122DB92282E097A008E5E0A /* DateToolExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DateToolExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2122DB94282E097A008E5E0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2122DB98282E097A008E5E0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2122DB9B282E097A008E5E0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2122DB9D282E097B008E5E0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2122DBA0282E097B008E5E0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2122DBA2282E097B008E5E0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		214FBAA0281BD8940031FE88 /* RTDateTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RTDateTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		214FBAA3281BD8940031FE88 /* RTDateTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTDateTools.h; sourceTree = "<group>"; };
 		214FBADA281BDA740031FE88 /* DateTools.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DateTools.bundle; sourceTree = "<group>"; };
@@ -48,6 +86,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2122DB8F282E097A008E5E0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2122DBA7282E09B8008E5E0A /* RTDateTools.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		214FBA9D281BD8940031FE88 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -58,11 +104,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2122DB93282E097A008E5E0A /* DateToolExample */ = {
+			isa = PBXGroup;
+			children = (
+				2122DB94282E097A008E5E0A /* AppDelegate.swift */,
+				2122DB98282E097A008E5E0A /* ViewController.swift */,
+				2122DB9A282E097A008E5E0A /* Main.storyboard */,
+				2122DB9D282E097B008E5E0A /* Assets.xcassets */,
+				2122DB9F282E097B008E5E0A /* LaunchScreen.storyboard */,
+				2122DBA2282E097B008E5E0A /* Info.plist */,
+			);
+			path = DateToolExample;
+			sourceTree = "<group>";
+		};
+		2122DBA6282E09B8008E5E0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		214FBA96281BD8940031FE88 = {
 			isa = PBXGroup;
 			children = (
 				214FBAA2281BD8940031FE88 /* RTDateTools */,
+				2122DB93282E097A008E5E0A /* DateToolExample */,
 				214FBAA1281BD8940031FE88 /* Products */,
+				2122DBA6282E09B8008E5E0A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				214FBAA0281BD8940031FE88 /* RTDateTools.framework */,
+				2122DB92282E097A008E5E0A /* DateToolExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,6 +189,25 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		2122DB91282E097A008E5E0A /* DateToolExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2122DBA5282E097B008E5E0A /* Build configuration list for PBXNativeTarget "DateToolExample" */;
+			buildPhases = (
+				2122DB8E282E097A008E5E0A /* Sources */,
+				2122DB8F282E097A008E5E0A /* Frameworks */,
+				2122DB90282E097A008E5E0A /* Resources */,
+				2122DBAB282E09B9008E5E0A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2122DBAA282E09B9008E5E0A /* PBXTargetDependency */,
+			);
+			name = DateToolExample;
+			productName = DateToolExample;
+			productReference = 2122DB92282E097A008E5E0A /* DateToolExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 		214FBA9F281BD8940031FE88 /* RTDateTools */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 214FBAA7281BD8940031FE88 /* Build configuration list for PBXNativeTarget "RTDateTools" */;
@@ -145,8 +233,12 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
+					2122DB91282E097A008E5E0A = {
+						CreatedOnToolsVersion = 13.1;
+					};
 					214FBA9F281BD8940031FE88 = {
 						CreatedOnToolsVersion = 13.1;
 					};
@@ -166,11 +258,22 @@
 			projectRoot = "";
 			targets = (
 				214FBA9F281BD8940031FE88 /* RTDateTools */,
+				2122DB91282E097A008E5E0A /* DateToolExample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2122DB90282E097A008E5E0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2122DBA1282E097B008E5E0A /* LaunchScreen.storyboard in Resources */,
+				2122DB9E282E097B008E5E0A /* Assets.xcassets in Resources */,
+				2122DB9C282E097A008E5E0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		214FBA9E281BD8940031FE88 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -182,6 +285,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2122DB8E282E097A008E5E0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2122DB99282E097A008E5E0A /* ViewController.swift in Sources */,
+				2122DB95282E097A008E5E0A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		214FBA9C281BD8940031FE88 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -206,7 +318,92 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		2122DBAA282E09B9008E5E0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 214FBA9F281BD8940031FE88 /* RTDateTools */;
+			targetProxy = 2122DBA9282E09B9008E5E0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2122DB9A282E097A008E5E0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2122DB9B282E097A008E5E0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2122DB9F282E097B008E5E0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2122DBA0282E097B008E5E0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		2122DBA3282E097B008E5E0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y8J5DMAZSX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DateToolExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "review-ty.DateToolExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2122DBA4282E097B008E5E0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y8J5DMAZSX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DateToolExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "review-ty.DateToolExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		214FBAA5281BD8940031FE88 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -388,6 +585,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2122DBA5282E097B008E5E0A /* Build configuration list for PBXNativeTarget "DateToolExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2122DBA3282E097B008E5E0A /* Debug */,
+				2122DBA4282E097B008E5E0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		214FBA9A281BD8940031FE88 /* Build configuration list for PBXProject "RTDateTools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -26,4 +26,9 @@ public class Constants {
     public static let MillisecondsInDay: TimeInterval = 86400000
     
     public static let AllCalendarUnitFlags: Set<Calendar.Component> = [.year, .quarter, .month, .weekOfYear, .weekOfMonth, .day, .hour, .minute, .second, .era, .weekday, .weekdayOrdinal, .weekOfYear]
+  
+}
+
+public class DateToolConfiguration {
+  public static var defaultLanguageCode = "vi"
 }
