@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21064F2B2844AFCE00AED727 /* ISO8601Serialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 21064F262844AFCE00AED727 /* ISO8601Serialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21064F2C2844AFCE00AED727 /* NSDate+ISO8601.h in Headers */ = {isa = PBXBuildFile; fileRef = 21064F272844AFCE00AED727 /* NSDate+ISO8601.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21064F2D2844AFCE00AED727 /* ISO8601.h in Headers */ = {isa = PBXBuildFile; fileRef = 21064F282844AFCE00AED727 /* ISO8601.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21064F2E2844AFCE00AED727 /* ISO8601Serialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 21064F292844AFCE00AED727 /* ISO8601Serialization.m */; };
+		21064F2F2844AFCE00AED727 /* NSDate+ISO8601.m in Sources */ = {isa = PBXBuildFile; fileRef = 21064F2A2844AFCE00AED727 /* NSDate+ISO8601.m */; };
 		2122DB95282E097A008E5E0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2122DB94282E097A008E5E0A /* AppDelegate.swift */; };
 		2122DB99282E097A008E5E0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2122DB98282E097A008E5E0A /* ViewController.swift */; };
 		2122DB9C282E097A008E5E0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2122DB9A282E097A008E5E0A /* Main.storyboard */; };
@@ -58,6 +63,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		21064F262844AFCE00AED727 /* ISO8601Serialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISO8601Serialization.h; sourceTree = "<group>"; };
+		21064F272844AFCE00AED727 /* NSDate+ISO8601.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ISO8601.h"; sourceTree = "<group>"; };
+		21064F282844AFCE00AED727 /* ISO8601.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISO8601.h; sourceTree = "<group>"; };
+		21064F292844AFCE00AED727 /* ISO8601Serialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISO8601Serialization.m; sourceTree = "<group>"; };
+		21064F2A2844AFCE00AED727 /* NSDate+ISO8601.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ISO8601.m"; sourceTree = "<group>"; };
 		2122DB92282E097A008E5E0A /* DateToolExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DateToolExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2122DB94282E097A008E5E0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2122DB98282E097A008E5E0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +114,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21064F252844AFCE00AED727 /* DateISO8601 */ = {
+			isa = PBXGroup;
+			children = (
+				21064F262844AFCE00AED727 /* ISO8601Serialization.h */,
+				21064F272844AFCE00AED727 /* NSDate+ISO8601.h */,
+				21064F282844AFCE00AED727 /* ISO8601.h */,
+				21064F292844AFCE00AED727 /* ISO8601Serialization.m */,
+				21064F2A2844AFCE00AED727 /* NSDate+ISO8601.m */,
+			);
+			path = DateISO8601;
+			sourceTree = "<group>";
+		};
 		2122DB93282E097A008E5E0A /* DateToolExample */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +168,7 @@
 		214FBAA2281BD8940031FE88 /* RTDateTools */ = {
 			isa = PBXGroup;
 			children = (
+				21064F252844AFCE00AED727 /* DateISO8601 */,
 				214FBAD9281BDA740031FE88 /* DateTools */,
 				214FBAA3281BD8940031FE88 /* RTDateTools.h */,
 			);
@@ -182,6 +205,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21064F2C2844AFCE00AED727 /* NSDate+ISO8601.h in Headers */,
+				21064F2D2844AFCE00AED727 /* ISO8601.h in Headers */,
+				21064F2B2844AFCE00AED727 /* ISO8601Serialization.h in Headers */,
 				214FBAA4281BD8940031FE88 /* RTDateTools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +333,8 @@
 				214FBAF9281BDA740031FE88 /* TimePeriodCollection.swift in Sources */,
 				214FBAEE281BDA740031FE88 /* TimePeriod.swift in Sources */,
 				214FBAF1281BDA740031FE88 /* Enums.swift in Sources */,
+				21064F2E2844AFCE00AED727 /* ISO8601Serialization.m in Sources */,
+				21064F2F2844AFCE00AED727 /* NSDate+ISO8601.m in Sources */,
 				214FBAF7281BDA740031FE88 /* Integer+DateTools.swift in Sources */,
 				214FBAF4281BDA740031FE88 /* Date+Comparators.swift in Sources */,
 				214FBAEB281BDA740031FE88 /* Constants.swift in Sources */,
@@ -529,6 +557,7 @@
 		214FBAA8281BD8940031FE88 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -557,6 +586,7 @@
 		214FBAA9281BD8940031FE88 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
